@@ -1,0 +1,69 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+---
+#Notice : Application de l'association 'La vie en vert'
+###Auteurs : Durand-Hardy François, Mareau Alexis, Daboudet Claire
+#
+####Qu'est ce que cette application ?
+
+<p>Cette application est un support pour l'association "la vie en vert" qui lutte depuis plusieurs années déjà pour la protection de l'environnement. Elle a pour but de sensibiliser les utilisateurs à l'importance d'agir rapidement pour aider notre planète. Comment ? En mettant en avant différents phénomènes auquels la Terre doit faire face depuis quelques années.</p>
+ 
+####Quelles sont nos motivations ?
+
+<p>L'environnement est un sujet qui nous tient tous les 3 à coeur et nous voulions à tout prix travailler dessus. Comme la quantité d'informations concernant ce domaine est phénomenale, nous nous sommes dis que l'application pourrait être une excellente occasion pour résumer toute cette information, la visualisation de cartes et de graphique la rend beaucoup plus accessible et plus digestes. </p>
+
+####Comment utiliser l'application ?
+
+<p>L'application est divisée en cinq parties :</p>
+- Accueil <br/> 
+- Air-Eau <br/>
+- Faune-Flore <br/>
+- Energie <br/>
+- Informations <br/>
+
+<p> <strong>Accueil :</strong> </p>
+<p> Cette page est composée de deux blocs de texte. Le premier "Qui sommes nous ?" présente l'origine et le but de l'association. Le second "Pourquoi cette application ?" introduit de manière large le contenu de l'application.</p>
+
+<p> <strong>Air-Eau :</strong> </p>
+<p> Le deuxième onglet de l'application est la catégorie 'Air-Eau'. Deux sous-onglets sont proposés.</p>
+
+- <p> Carte : </p>
+<p> C'est à l'utilisateur d'intéragir avec les élements de cette page. Il peut y visualiser une cartographie et le rang des pays de deux indicateurs : émissions de CO2, ainsi qu'émissions de gaz à effet de serre. Par défaut, l'indicateur 'CO2' est selectionné. Une barre d'interaction sépare la cartographie du diagramme en bâton représentant le rang. On y retrouve trois choix possibles. L'utilisateur peut sélectionner l'année d'observation. Il verra alors le rang et la carte mis à jour à l'année choisie. L'utilisateur a également la possibilité de sélectionner la variable qu'il souhaite visualiser. Le dernier choix s'offrant à lui est la plage de rang. Elle permet de gérer l'affichage du rang. Elle correspond aux premiers et derniers rangs à afficher dans le graphique. </p>
+
+- <p> Evolution : </p>
+<p> Cette page va permettre à l'utilisateur de se rendre compte de l'évolution de plusieurs indicateurs dans le temps.</p>
+<p>La première partie représente l'évolution dans le monde entier. L'utilisateur peut choisir l'une des cinq variables : émissions de CO2, d'effet de serre, niveau de la mer, des glaciers ainsi que températures de l'eau et de l'air. Chaque indicateur est plus précisément décrit lors de sa selection par l'utilisateur. </p>
+<p>La deuxième partie va permettre à la personne de sélectionner un pays. Ainsi chaque personne va pouvoir visualiser le changement au cours du temps du CO2 ou de l'effet de serre pour le pays souhaité. Si rien ne s'affiche lors de la selection du pays, cela signifie que les données sur le pays sont indisponibles.</p>
+
+<p> <strong>Faune-Flore :</strong> </p>
+<p> Le troisième onglet de l'application correspond à la catégorie 'Faune-Flore'. De la même manière, deux sous-onglets sont proposés.</p>
+
+- <p> Déforestation : </p>
+<p> On y retrouve l'évolution de la surface forestière, dans le monde par défaut. C'est un indicateur qui permet de se rendre compte du phénomène de déforestation. L'utilisateur a la possibilité de choisir un pays pour lequel il aimerait se renseigner. Ici également, si lorsque de la selection du pays rien ne se passe, cela signifie que nous ne possédons pas les données pour le pays souhaité.</p>
+
+- <p> Espèces menacées : </p>
+<p> Nous nous intéressons ici aux espèces menacées. En haut, deux onglets sont proposés.</p>
+<p> Nous nous trouvons directement sur le premier, nommé 'Géographie'. Cette partie va permettre à l'utilisateur de se rendre compte de la quantité d'espèce en péril, en voie de disparition et en voie de disparition critique dans le monde à travers une cartographie. L'utilisateur a la possibilité de choisir l'espèce, ce qui mettra à jour la carte. On retrouve sous la carte un tableau contenant le nombre moyen d'espèce menacée dans un pays par continent. Par exemple, dans un pays Africain il y a en moyenne 17 mammifères menacés et 202 espèces menacées au total.</p>
+<p> Le deuxième onglet 'Evolution du niveau de menace' est consacré à la répartition du niveau de menace des espèces, selon les années. On y trouve un histogramme empilé représentant le nombre d'espèce menacée, en péril en orange clair, en voie de dispartition en orange, et en voie de disparition critique en rouge.  Ici aussi, l'utilisateur peut choisir l'espèce sur laquelle il veut se renseigner.</p>
+
+<p> <strong>Energie :</strong> </p>
+<p> Le troisième onglet de l'application correspond à la dernière catégorie : 'Energie'. Deux sous-onglets sont proposés.</p>
+
+- <p> Carte : </p>
+<p> Cette partie marche exactement de la même manière que l'onglet 'Carte' de la catégorie 'Air-Eau'. Les indicateurs sont différents : consommation électrique, consommation d'énergie renouvelable, production d'électricité provenant de sources nucléaires, fossiles ou renouvelables. Les détails de ces indicateurs apparaissent lorsque vous selectionnez la variable dans le menu. </p>
+- <p> Evolution : </p>
+<p> Ici l'utilisateur va pouvoir visualiser l'évolution de la consommation électrique ou d'énergie renouvelable du pays choisi. Il peut choisir le type de consommation et le pays. </p>
+<p> Dans une deuxième partie, on retrouve un histogramme empilé. Il représente la répartition des sources de production d'éléctricité pour un pays.</p>
+<p> De la même manière que dans les onglets précédents, si lors du choix du pays rien ne s'affiche, c'est que nous n'avons pas accès aux données pour celui-ci. Il se peut également que l'on ne possède que des données incomplètes de chaque production d'electricité. D'où la possibilité de certains trous dans le barplot correspondant. </p>
+
+<p> <strong>Informations :</strong> </p>
+<p>Cette partie regroupe les données que nous avons utilisées pour nos graphiques et cartes. Le lien de la source se trouve en dessous du tableau de données correspondant.</p>
+<p>On peut également y retrouver les contact des membres de l'association. </p>
+
+####Axes d'amélioration
+
+<p>Nous nous sommes demandé ce qu'on aurait pu améliorer. Tout d'abord, on aurait souhaité avoir accès à d'autres informations intéressantes qui mettrait de manière évidente ce que nous faisons subir à notre planète. De plus nous avions d'autres idées, par manque de temps nous, nous n'avons pas pu nous y attarder.</p>
+#
+Pour plus d'information vous pouvez retrouver nos coordonnées dans l'onglet 'Contact' de notre application.
